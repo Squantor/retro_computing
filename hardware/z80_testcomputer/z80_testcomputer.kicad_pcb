@@ -138,7 +138,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3_Pad_Via (layer F.Cu) (tedit 56DDBCCA) (tstamp 5DA0A11F)
-    (at 192.5 55)
+    (at 190 55)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (path /5DA10D38)
@@ -166,7 +166,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3_Pad_Via (layer F.Cu) (tedit 56DDBCCA) (tstamp 5DA0A10F)
-    (at 192.5 145)
+    (at 190 145)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (path /5DA10A6A)
@@ -194,7 +194,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3_Pad_Via (layer F.Cu) (tedit 56DDBCCA) (tstamp 5DA0A0FF)
-    (at 107.4 145)
+    (at 110 145)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (path /5DA1023A)
@@ -222,7 +222,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3_Pad_Via (layer F.Cu) (tedit 56DDBCCA) (tstamp 5DA0A0EF)
-    (at 107.5 55)
+    (at 110 55)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (path /5DA0D902)
