@@ -412,4 +412,42 @@ Wire Wire Line
 	9150 1050 9200 1050
 Wire Wire Line
 	10550 950  10600 950 
+$Comp
+L Device:C C?
+U 1 1 5DAA3E9C
+P 1750 3400
+F 0 "C?" V 1700 3300 50  0000 C CNN
+F 1 "100n" V 1800 3550 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 1788 3250 50  0001 C CNN
+F 3 "~" H 1750 3400 50  0001 C CNN
+	1    1750 3400
+	0    1    1    0   
+$EndComp
+Text Label 1550 3400 2    50   ~ 0
+VDD
+Text Label 1950 3400 0    50   ~ 0
+VSS
+$Comp
+L Device:C C?
+U 1 1 5DAA5405
+P 1750 3600
+F 0 "C?" V 1700 3500 50  0000 C CNN
+F 1 "1u" V 1800 3750 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 1788 3450 50  0001 C CNN
+F 3 "~" H 1750 3600 50  0001 C CNN
+	1    1750 3600
+	0    1    1    0   
+$EndComp
+Text Label 1550 3600 2    50   ~ 0
+VDD
+Text Label 1950 3600 0    50   ~ 0
+VSS
+Wire Wire Line
+	1550 3400 1600 3400
+Wire Wire Line
+	1550 3600 1600 3600
+Wire Wire Line
+	1900 3400 1950 3400
+Wire Wire Line
+	1900 3600 1950 3600
 $EndSCHEMATC
