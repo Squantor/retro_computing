@@ -183,21 +183,19 @@ Wire Wire Line
 	8600 950  8650 950 
 Wire Wire Line
 	9150 950  9200 950 
-Text Label 9200 1950 0    50   ~ 0
+Text Label 8600 2050 2    50   ~ 0
 VSS
-Text Label 9200 2350 0    50   ~ 0
+Text Label 9200 2050 0    50   ~ 0
 VSS
-Text Label 9200 1650 0    50   ~ 0
+Text Label 9200 1450 0    50   ~ 0
 VSS
-Text Label 9200 1250 0    50   ~ 0
+Text Label 8600 1450 2    50   ~ 0
 VSS
-Text Label 10600 1250 0    50   ~ 0
+Text Label 10600 1350 0    50   ~ 0
 VSS
-Text Label 10600 1650 0    50   ~ 0
+Text Label 10000 1950 2    50   ~ 0
 VSS
 Text Label 10600 1950 0    50   ~ 0
-VSS
-Text Label 10600 2350 0    50   ~ 0
 VSS
 Wire Wire Line
 	9150 1250 9200 1250
@@ -207,8 +205,6 @@ Wire Wire Line
 	9150 1950 9200 1950
 Wire Wire Line
 	9150 2350 9200 2350
-Wire Wire Line
-	10550 1250 10600 1250
 Wire Wire Line
 	10550 1650 10600 1650
 Wire Wire Line
@@ -246,8 +242,6 @@ Wire Wire Line
 	2200 2300 2250 2300
 Text Label 1250 2200 2    50   ~ 0
 VDD
-Text Label 2250 2300 0    50   ~ 0
-VSS
 Text Label 2250 2200 0    50   ~ 0
 A0
 Text Label 2250 2100 0    50   ~ 0
@@ -318,12 +312,6 @@ Text Label 2250 2800 0    50   ~ 0
 !WAIT
 Text Label 2250 2700 0    50   ~ 0
 !BUSREQ
-Text Label 2250 2600 0    50   ~ 0
-!RESET
-Text Label 2250 2500 0    50   ~ 0
-!M1
-Text Label 2250 2400 0    50   ~ 0
-!RFSH
 Wire Wire Line
 	1250 1200 1300 1200
 Wire Wire Line
@@ -400,7 +388,7 @@ Wire Wire Line
 	2250 1300 2200 1300
 Wire Wire Line
 	2200 1200 2250 1200
-Text Label 10600 950  0    50   ~ 0
+Text Label 10000 1350 2    50   ~ 0
 VSS
 Text Label 9200 1050 0    50   ~ 0
 VDD
@@ -410,13 +398,11 @@ Wire Wire Line
 	8600 1050 8650 1050
 Wire Wire Line
 	9150 1050 9200 1050
-Wire Wire Line
-	10550 950  10600 950 
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5DAA3E9C
 P 1750 3400
-F 0 "C?" V 1700 3300 50  0000 C CNN
+F 0 "C1" V 1700 3300 50  0000 C CNN
 F 1 "100n" V 1800 3550 50  0000 C CNN
 F 2 "SquantorRcl:C_0805+0603" H 1788 3250 50  0001 C CNN
 F 3 "~" H 1750 3400 50  0001 C CNN
@@ -428,10 +414,10 @@ VDD
 Text Label 1950 3400 0    50   ~ 0
 VSS
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 5DAA5405
 P 1750 3600
-F 0 "C?" V 1700 3500 50  0000 C CNN
+F 0 "C2" V 1700 3500 50  0000 C CNN
 F 1 "1u" V 1800 3750 50  0000 C CNN
 F 2 "SquantorRcl:C_0805+0603" H 1788 3450 50  0001 C CNN
 F 3 "~" H 1750 3600 50  0001 C CNN
@@ -450,4 +436,170 @@ Wire Wire Line
 	1900 3400 1950 3400
 Wire Wire Line
 	1900 3600 1950 3600
+Text Label 10000 2350 2    50   ~ 0
+!IORQ
+Text Label 10600 2350 0    50   ~ 0
+!RD
+Text Label 10600 2250 0    50   ~ 0
+!WR
+Text Label 10600 2150 0    50   ~ 0
+!BUSACK
+Text Label 10000 2250 2    50   ~ 0
+!MREQ
+Text Label 10000 2150 2    50   ~ 0
+!HALT
+Text Label 10000 2050 2    50   ~ 0
+!NMI
+Wire Wire Line
+	10000 1950 10050 1950
+Wire Wire Line
+	10000 1350 10050 1350
+Wire Wire Line
+	10550 1350 10600 1350
+Wire Wire Line
+	8600 1450 8650 1450
+Wire Wire Line
+	9150 1450 9200 1450
+Wire Wire Line
+	9200 2050 9150 2050
+Wire Wire Line
+	8650 2050 8600 2050
+Text Label 10600 2050 0    50   ~ 0
+!WAIT
+Text Label 10600 1850 0    50   ~ 0
+!BUSREQ
+Text Label 2250 2400 0    50   ~ 0
+!RFSH
+Text Label 2250 2500 0    50   ~ 0
+!M1
+Text Label 2250 2600 0    50   ~ 0
+!RESET
+Text Label 2250 2300 0    50   ~ 0
+VSS
+Text Label 10600 1550 0    50   ~ 0
+!RFSH
+Text Label 10600 1650 0    50   ~ 0
+!M1
+Text Label 10600 1750 0    50   ~ 0
+!RESET
+Text Label 10000 1450 2    50   ~ 0
+D2
+Text Label 10000 1550 2    50   ~ 0
+D7
+Text Label 10000 1650 2    50   ~ 0
+D0
+Text Label 10000 1750 2    50   ~ 0
+D1
+Text Label 10000 1850 2    50   ~ 0
+!INT
+Wire Wire Line
+	10000 2350 10050 2350
+Wire Wire Line
+	10000 2250 10050 2250
+Wire Wire Line
+	10050 2150 10000 2150
+Wire Wire Line
+	10000 2050 10050 2050
+Wire Wire Line
+	10550 2050 10600 2050
+Wire Wire Line
+	10600 2150 10550 2150
+Wire Wire Line
+	10550 2250 10600 2250
+Wire Wire Line
+	10600 1850 10550 1850
+Wire Wire Line
+	10550 1750 10600 1750
+Wire Wire Line
+	10050 1850 10000 1850
+Wire Wire Line
+	10000 1750 10050 1750
+Wire Wire Line
+	10050 1650 10000 1650
+Wire Wire Line
+	10000 1550 10050 1550
+Wire Wire Line
+	10050 1450 10000 1450
+Wire Wire Line
+	10550 1550 10600 1550
+Text Label 10600 1450 0    50   ~ 0
+A0
+Text Label 10600 1250 0    50   ~ 0
+A1
+Text Label 10600 1150 0    50   ~ 0
+A2
+Text Label 10600 1050 0    50   ~ 0
+A3
+Text Label 10600 950  0    50   ~ 0
+A4
+Text Label 9200 2350 0    50   ~ 0
+A5
+Text Label 9200 2250 0    50   ~ 0
+A6
+Text Label 9200 2150 0    50   ~ 0
+A7
+Text Label 9200 1950 0    50   ~ 0
+A8
+Text Label 9200 1850 0    50   ~ 0
+A9
+Text Label 9200 1750 0    50   ~ 0
+A10
+Wire Wire Line
+	10550 1450 10600 1450
+Wire Wire Line
+	10600 1250 10550 1250
+Wire Wire Line
+	10550 1150 10600 1150
+Wire Wire Line
+	10600 1050 10550 1050
+Wire Wire Line
+	10550 950  10600 950 
+Text Label 8600 1750 2    50   ~ 0
+A11
+Text Label 8600 1850 2    50   ~ 0
+A12
+Text Label 8600 1950 2    50   ~ 0
+A13
+Text Label 8600 2150 2    50   ~ 0
+A14
+Text Label 8600 2250 2    50   ~ 0
+A15
+Text Label 8600 2350 2    50   ~ 0
+MCLK
+Text Label 10000 950  2    50   ~ 0
+D4
+Text Label 10000 1050 2    50   ~ 0
+D3
+Text Label 10000 1150 2    50   ~ 0
+D5
+Text Label 10000 1250 2    50   ~ 0
+D6
+Wire Wire Line
+	8600 2350 8650 2350
+Wire Wire Line
+	9150 2250 9200 2250
+Wire Wire Line
+	9200 2150 9150 2150
+Wire Wire Line
+	8650 2150 8600 2150
+Wire Wire Line
+	8600 2250 8650 2250
+Wire Wire Line
+	8600 1950 8650 1950
+Wire Wire Line
+	8650 1850 8600 1850
+Wire Wire Line
+	8600 1750 8650 1750
+Wire Wire Line
+	9150 1750 9200 1750
+Wire Wire Line
+	9200 1850 9150 1850
+Wire Wire Line
+	10000 1250 10050 1250
+Wire Wire Line
+	10050 1150 10000 1150
+Wire Wire Line
+	10000 1050 10050 1050
+Wire Wire Line
+	10050 950  10000 950 
 $EndSCHEMATC
