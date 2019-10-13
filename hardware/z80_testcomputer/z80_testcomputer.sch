@@ -138,4 +138,103 @@ Text Label 1450 7700 2    50   ~ 0
 VSS
 Wire Wire Line
 	1500 7700 1450 7700
+$Comp
+L SquantorProto:testpad TP2
+U 1 1 5DA33AE1
+P 1650 7500
+F 0 "TP2" H 1728 7558 60  0000 L CNN
+F 1 "testpad" H 1728 7452 60  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1650 7500 60  0001 C CNN
+F 3 "" H 1650 7500 60  0001 C CNN
+	1    1650 7500
+	1    0    0    -1  
+$EndComp
+Text Label 1450 7500 2    50   ~ 0
+VDD
+Wire Wire Line
+	1450 7500 1500 7500
+Text Label 8600 950  2    50   ~ 0
+VDD
+Text Label 10000 950  2    50   ~ 0
+VDD
+$Comp
+L Connector_Generic:Conn_02x15_Odd_Even J2
+U 1 1 5DA3128D
+P 10250 1650
+F 0 "J2" H 10250 2450 50  0000 C CNN
+F 1 "Conn_02x15_Odd_Even" H 10250 850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical" H 10250 1650 50  0001 C CNN
+F 3 "~" H 10250 1650 50  0001 C CNN
+	1    10250 1650
+	1    0    0    -1  
+$EndComp
+Text Label 10600 950  0    50   ~ 0
+VDD
+$Comp
+L Connector_Generic:Conn_02x15_Odd_Even J1
+U 1 1 5DA2DADD
+P 8850 1650
+F 0 "J1" H 8850 2450 50  0000 C CNN
+F 1 "Conn_02x15_Odd_Even" H 8850 850 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Vertical" H 8850 1650 50  0001 C CNN
+F 3 "~" H 8850 1650 50  0001 C CNN
+	1    8850 1650
+	1    0    0    -1  
+$EndComp
+Text Label 9200 950  0    50   ~ 0
+VDD
+Wire Wire Line
+	8600 950  8650 950 
+Wire Wire Line
+	9150 950  9200 950 
+Wire Wire Line
+	10000 950  10050 950 
+Wire Wire Line
+	10550 950  10600 950 
+Text Label 9200 1950 0    50   ~ 0
+VSS
+Text Label 9200 2350 0    50   ~ 0
+VSS
+Text Label 9200 1650 0    50   ~ 0
+VSS
+Text Label 9200 1250 0    50   ~ 0
+VSS
+Text Label 10600 1250 0    50   ~ 0
+VSS
+Text Label 10600 1650 0    50   ~ 0
+VSS
+Text Label 10600 1950 0    50   ~ 0
+VSS
+Text Label 10600 2350 0    50   ~ 0
+VSS
+Wire Wire Line
+	9150 1250 9200 1250
+Wire Wire Line
+	9150 1650 9200 1650
+Wire Wire Line
+	9150 1950 9200 1950
+Wire Wire Line
+	9150 2350 9200 2350
+Wire Wire Line
+	10550 1250 10600 1250
+Wire Wire Line
+	10550 1650 10600 1650
+Wire Wire Line
+	10550 1950 10600 1950
+Wire Wire Line
+	10550 2350 10600 2350
+Wire Notes Line
+	8350 800  11050 800 
+Wire Notes Line
+	11050 800  11050 2650
+Wire Notes Line
+	11050 2650 8350 2650
+Wire Notes Line
+	8350 2650 8350 800 
+Text Notes 10500 2600 0    50   ~ 0
+Interface Bus
+Wire Notes Line
+	11050 2500 10450 2500
+Wire Notes Line
+	10450 2500 10450 2650
 $EndSCHEMATC
