@@ -602,4 +602,169 @@ Wire Wire Line
 	10000 1050 10050 1050
 Wire Wire Line
 	10050 950  10000 950 
+$Comp
+L SquantorIC:SRAM_512K8B_DIP_SOP_SOJ U2
+U 1 1 5DBFB0B6
+P 3600 2450
+F 0 "U2" H 3600 3715 50  0000 C CNN
+F 1 "SRAM_512K8B_DIP_SOP_SOJ" H 3600 3624 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm_Socket" H 3600 2850 50  0001 C CNN
+F 3 "" H 3600 2850 50  0001 C CNN
+	1    3600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5DBFD4F1
+P 3600 3200
+F 0 "C3" V 3550 3100 50  0000 C CNN
+F 1 "100n" V 3650 3350 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 3638 3050 50  0001 C CNN
+F 3 "~" H 3600 3200 50  0001 C CNN
+	1    3600 3200
+	0    1    1    0   
+$EndComp
+Text Label 3400 3200 2    50   ~ 0
+VDD
+Text Label 3800 3200 0    50   ~ 0
+VSS
+$Comp
+L Device:C C4
+U 1 1 5DBFD4F9
+P 3600 3400
+F 0 "C4" V 3550 3300 50  0000 C CNN
+F 1 "1u" V 3650 3550 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 3638 3250 50  0001 C CNN
+F 3 "~" H 3600 3400 50  0001 C CNN
+	1    3600 3400
+	0    1    1    0   
+$EndComp
+Text Label 3400 3400 2    50   ~ 0
+VDD
+Text Label 3800 3400 0    50   ~ 0
+VSS
+Wire Wire Line
+	3400 3200 3450 3200
+Wire Wire Line
+	3400 3400 3450 3400
+Wire Wire Line
+	3750 3200 3800 3200
+Wire Wire Line
+	3750 3400 3800 3400
+Text Label 4000 1450 0    50   ~ 0
+VDD
+Text Label 3200 2950 2    50   ~ 0
+VSS
+Text Label 3200 2650 2    50   ~ 0
+D0
+Text Label 3200 2750 2    50   ~ 0
+D1
+Text Label 3200 2850 2    50   ~ 0
+D2
+Text Label 4000 2950 0    50   ~ 0
+D3
+Text Label 4000 2850 0    50   ~ 0
+D4
+Text Label 4000 2750 0    50   ~ 0
+D5
+Text Label 4000 2650 0    50   ~ 0
+D6
+Text Label 4000 2550 0    50   ~ 0
+D7
+Text Label 3200 2550 2    50   ~ 0
+A0
+Text Label 3200 2450 2    50   ~ 0
+A1
+Text Label 3200 2350 2    50   ~ 0
+A2
+Text Label 3200 2250 2    50   ~ 0
+A3
+Text Label 3200 2150 2    50   ~ 0
+A4
+Text Label 3200 2050 2    50   ~ 0
+A5
+Text Label 3200 1950 2    50   ~ 0
+A6
+Text Label 3200 1850 2    50   ~ 0
+A7
+Text Label 3200 1750 2    50   ~ 0
+A12
+Text Label 3200 1650 2    50   ~ 0
+A14
+Text Label 3200 1550 2    50   ~ 0
+A16
+Text Label 3200 1450 2    50   ~ 0
+A17
+Text Label 4000 1550 0    50   ~ 0
+A15
+Text Label 4000 1650 0    50   ~ 0
+A18
+Text Label 4000 1850 0    50   ~ 0
+A13
+Text Label 4000 1950 0    50   ~ 0
+A8
+Text Label 4000 2050 0    50   ~ 0
+A9
+Text Label 4000 2150 0    50   ~ 0
+A11
+Text Label 4000 2350 0    50   ~ 0
+A10
+Wire Wire Line
+	3200 1450 3250 1450
+Wire Wire Line
+	3250 1550 3200 1550
+Wire Wire Line
+	3200 1650 3250 1650
+Wire Wire Line
+	3250 1750 3200 1750
+Wire Wire Line
+	3200 1850 3250 1850
+Wire Wire Line
+	3250 1950 3200 1950
+Wire Wire Line
+	3200 2050 3250 2050
+Wire Wire Line
+	3250 2150 3200 2150
+Wire Wire Line
+	3200 2250 3250 2250
+Wire Wire Line
+	3250 2350 3200 2350
+Wire Wire Line
+	3200 2450 3250 2450
+Wire Wire Line
+	3250 2550 3200 2550
+Wire Wire Line
+	3200 2650 3250 2650
+Wire Wire Line
+	3250 2750 3200 2750
+Wire Wire Line
+	3200 2850 3250 2850
+Wire Wire Line
+	3250 2950 3200 2950
+Wire Wire Line
+	3950 2950 4000 2950
+Wire Wire Line
+	4000 2850 3950 2850
+Wire Wire Line
+	3950 2750 4000 2750
+Wire Wire Line
+	4000 2650 3950 2650
+Wire Wire Line
+	3950 2550 4000 2550
+Wire Wire Line
+	4000 2350 3950 2350
+Wire Wire Line
+	3950 2150 4000 2150
+Wire Wire Line
+	4000 2050 3950 2050
+Wire Wire Line
+	3950 1950 4000 1950
+Wire Wire Line
+	4000 1850 3950 1850
+Wire Wire Line
+	3950 1650 4000 1650
+Wire Wire Line
+	4000 1550 3950 1550
+Wire Wire Line
+	3950 1450 4000 1450
 $EndSCHEMATC
