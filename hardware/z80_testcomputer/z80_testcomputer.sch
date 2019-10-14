@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:z80_testcomputer-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -225,99 +226,92 @@ Wire Notes Line
 	11050 2500 10450 2500
 Wire Notes Line
 	10450 2500 10450 2650
-$Comp
-L SquantorZilog:Z84C000XPEG U1
-U 1 1 5DA6DBA5
-P 1750 2150
-F 0 "U1" H 1750 3365 50  0000 C CNN
-F 1 "Z84C000XPEG" H 1750 3274 50  0000 C CNN
-F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 1650 2550 50  0001 C CNN
-F 3 "" H 1650 2550 50  0001 C CNN
-	1    1750 2150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1300 2200 1250 2200
+	1300 2100 1250 2100
 Wire Wire Line
-	2200 2300 2250 2300
-Text Label 1250 2200 2    50   ~ 0
-VDD
-Text Label 2250 2200 0    50   ~ 0
-A0
-Text Label 2250 2100 0    50   ~ 0
-A1
-Text Label 2250 2000 0    50   ~ 0
-A2
-Text Label 2250 1900 0    50   ~ 0
-A3
-Text Label 2250 1800 0    50   ~ 0
-A4
-Text Label 2250 1700 0    50   ~ 0
-A5
-Text Label 2250 1600 0    50   ~ 0
-A6
-Text Label 2250 1500 0    50   ~ 0
-A7
-Text Label 2250 1400 0    50   ~ 0
-A8
-Text Label 2250 1300 0    50   ~ 0
-A9
-Text Label 2250 1200 0    50   ~ 0
-A10
-Text Label 1250 1200 2    50   ~ 0
-A11
-Text Label 1250 1300 2    50   ~ 0
-A12
-Text Label 1250 1400 2    50   ~ 0
-A13
-Text Label 1250 1500 2    50   ~ 0
-A14
-Text Label 1250 1600 2    50   ~ 0
-A15
-Text Label 1250 1700 2    50   ~ 0
-MCLK
-Text Label 1250 1800 2    50   ~ 0
-D4
-Text Label 1250 1900 2    50   ~ 0
-D3
-Text Label 1250 2000 2    50   ~ 0
-D5
+	2200 2000 2250 2000
 Text Label 1250 2100 2    50   ~ 0
+VDD
+Text Label 2250 1900 0    50   ~ 0
+A0
+Text Label 2250 1800 0    50   ~ 0
+A1
+Text Label 2250 1700 0    50   ~ 0
+A2
+Text Label 2250 1600 0    50   ~ 0
+A3
+Text Label 2250 1500 0    50   ~ 0
+A4
+Text Label 2250 1400 0    50   ~ 0
+A5
+Text Label 2250 1300 0    50   ~ 0
+A6
+Text Label 2250 1200 0    50   ~ 0
+A7
+Text Label 2250 1100 0    50   ~ 0
+A8
+Text Label 2250 1000 0    50   ~ 0
+A9
+Text Label 2250 900  0    50   ~ 0
+A10
+Text Label 1250 900  2    50   ~ 0
+A11
+Text Label 1250 1000 2    50   ~ 0
+A12
+Text Label 1250 1100 2    50   ~ 0
+A13
+Text Label 1250 1200 2    50   ~ 0
+A14
+Text Label 1250 1300 2    50   ~ 0
+A15
+Text Label 1250 1500 2    50   ~ 0
+MCLK
+Text Label 1250 1600 2    50   ~ 0
+D4
+Text Label 1250 1700 2    50   ~ 0
+D3
+Text Label 1250 1800 2    50   ~ 0
+D5
+Text Label 1250 1900 2    50   ~ 0
 D6
-Text Label 1250 2300 2    50   ~ 0
+Text Label 1250 2200 2    50   ~ 0
 D2
-Text Label 1250 2400 2    50   ~ 0
+Text Label 1250 2300 2    50   ~ 0
 D7
-Text Label 1250 2500 2    50   ~ 0
+Text Label 1250 2400 2    50   ~ 0
 D0
-Text Label 1250 2600 2    50   ~ 0
+Text Label 1250 2500 2    50   ~ 0
 D1
-Text Label 1250 2700 2    50   ~ 0
+Text Label 1250 2600 2    50   ~ 0
 !INT
-Text Label 1250 2800 2    50   ~ 0
+Text Label 1250 2700 2    50   ~ 0
 !NMI
-Text Label 1250 2900 2    50   ~ 0
+Text Label 1250 2800 2    50   ~ 0
 !HALT
-Text Label 1250 3000 2    50   ~ 0
+Text Label 1250 2900 2    50   ~ 0
 !MREQ
-Text Label 1250 3100 2    50   ~ 0
+Text Label 1250 3000 2    50   ~ 0
 !IORQ
-Text Label 2250 3100 0    50   ~ 0
-!RD
 Text Label 2250 3000 0    50   ~ 0
-!WR
-Text Label 2250 2900 0    50   ~ 0
-!BUSACK
-Text Label 2250 2800 0    50   ~ 0
-!WAIT
+!RD
 Text Label 2250 2700 0    50   ~ 0
+!WR
+Text Label 2250 2600 0    50   ~ 0
+!BUSACK
+Text Label 2250 2500 0    50   ~ 0
+!WAIT
+Text Label 2250 2400 0    50   ~ 0
 !BUSREQ
 Wire Wire Line
-	1250 1200 1300 1200
+	1250 900  1300 900 
 Wire Wire Line
-	1300 1300 1250 1300
+	1300 1000 1250 1000
 Wire Wire Line
-	1250 1400 1300 1400
+	1250 1100 1300 1100
+Wire Wire Line
+	1300 1200 1250 1200
+Wire Wire Line
+	1250 1300 1300 1300
 Wire Wire Line
 	1300 1500 1250 1500
 Wire Wire Line
@@ -329,65 +323,61 @@ Wire Wire Line
 Wire Wire Line
 	1300 1900 1250 1900
 Wire Wire Line
-	1250 2000 1300 2000
+	1250 2200 1300 2200
 Wire Wire Line
-	1300 2100 1250 2100
+	1300 2300 1250 2300
 Wire Wire Line
-	1250 2300 1300 2300
+	1250 2400 1300 2400
 Wire Wire Line
-	1300 2400 1250 2400
+	1300 2500 1250 2500
 Wire Wire Line
-	1250 2500 1300 2500
+	1250 2600 1300 2600
 Wire Wire Line
-	1300 2600 1250 2600
+	1300 2700 1250 2700
 Wire Wire Line
-	1250 2700 1300 2700
+	1250 2800 1300 2800
 Wire Wire Line
-	1300 2800 1250 2800
+	1300 2900 1250 2900
 Wire Wire Line
-	1250 2900 1300 2900
+	1250 3000 1300 3000
 Wire Wire Line
-	1300 3000 1250 3000
+	2200 3000 2250 3000
 Wire Wire Line
-	1250 3100 1300 3100
+	2250 2700 2200 2700
 Wire Wire Line
-	2200 3100 2250 3100
+	2200 2600 2250 2600
 Wire Wire Line
-	2250 3000 2200 3000
-Wire Wire Line
-	2200 2900 2250 2900
-Wire Wire Line
-	2250 2800 2200 2800
-Wire Wire Line
-	2200 2700 2250 2700
-Wire Wire Line
-	2250 2600 2200 2600
-Wire Wire Line
-	2200 2500 2250 2500
+	2250 2500 2200 2500
 Wire Wire Line
 	2200 2400 2250 2400
 Wire Wire Line
+	2250 2300 2200 2300
+Wire Wire Line
 	2200 2200 2250 2200
 Wire Wire Line
-	2250 2100 2200 2100
+	2200 2100 2250 2100
 Wire Wire Line
-	2200 2000 2250 2000
+	2200 1900 2250 1900
 Wire Wire Line
-	2250 1900 2200 1900
+	2250 1800 2200 1800
 Wire Wire Line
-	2200 1800 2250 1800
+	2200 1700 2250 1700
 Wire Wire Line
-	2250 1700 2200 1700
+	2250 1600 2200 1600
 Wire Wire Line
-	2200 1600 2250 1600
+	2200 1500 2250 1500
 Wire Wire Line
-	2250 1500 2200 1500
+	2250 1400 2200 1400
 Wire Wire Line
-	2200 1400 2250 1400
+	2200 1300 2250 1300
 Wire Wire Line
-	2250 1300 2200 1300
+	2250 1200 2200 1200
 Wire Wire Line
-	2200 1200 2250 1200
+	2200 1100 2250 1100
+Wire Wire Line
+	2250 1000 2200 1000
+Wire Wire Line
+	2200 900  2250 900 
 Text Label 10000 1350 2    50   ~ 0
 VSS
 Text Label 9200 1050 0    50   ~ 0
@@ -468,13 +458,13 @@ Text Label 10600 2050 0    50   ~ 0
 !WAIT
 Text Label 10600 1850 0    50   ~ 0
 !BUSREQ
-Text Label 2250 2400 0    50   ~ 0
+Text Label 2250 2100 0    50   ~ 0
 !RFSH
-Text Label 2250 2500 0    50   ~ 0
+Text Label 2250 2200 0    50   ~ 0
 !M1
-Text Label 2250 2600 0    50   ~ 0
-!RESET
 Text Label 2250 2300 0    50   ~ 0
+!RESET
+Text Label 2250 2000 0    50   ~ 0
 VSS
 Text Label 10600 1550 0    50   ~ 0
 !RFSH
@@ -608,7 +598,7 @@ U 1 1 5DBFB0B6
 P 3600 2450
 F 0 "U2" H 3600 3715 50  0000 C CNN
 F 1 "SRAM_512K8B_DIP_SOP_SOJ" H 3600 3624 50  0000 C CNN
-F 2 "Package_DIP:DIP-32_W15.24mm_Socket" H 3600 2850 50  0001 C CNN
+F 2 "Package_SO:SSOP-32_11.305x20.495mm_P1.27mm" H 3600 2850 50  0001 C CNN
 F 3 "" H 3600 2850 50  0001 C CNN
 	1    3600 2450
 	1    0    0    -1  
@@ -767,4 +757,15 @@ Wire Wire Line
 	4000 1550 3950 1550
 Wire Wire Line
 	3950 1450 4000 1450
+$Comp
+L SquantorZilog:Z84C000XVEG U1
+U 1 1 5DA45E45
+P 1750 2050
+F 0 "U1" H 1750 3465 50  0000 C CNN
+F 1 "Z84C000XVEG" H 1750 3374 50  0000 C CNN
+F 2 "Package_LCC:PLCC-44_SMD-Socket" H 1650 2650 50  0001 C CNN
+F 3 "" H 1650 2650 50  0001 C CNN
+	1    1750 2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
