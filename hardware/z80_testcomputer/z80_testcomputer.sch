@@ -768,4 +768,169 @@ F 3 "" H 1650 2650 50  0001 C CNN
 	1    1750 2050
 	1    0    0    -1  
 $EndComp
+Text Label 4500 1650 2    50   ~ 0
+A18
+Text Label 4500 1750 2    50   ~ 0
+A16
+Text Label 4500 1850 2    50   ~ 0
+A15
+Text Label 4500 1950 2    50   ~ 0
+A12
+Text Label 4500 2150 2    50   ~ 0
+A7
+Text Label 4500 2250 2    50   ~ 0
+A6
+Text Label 4500 2350 2    50   ~ 0
+A5
+Text Label 4500 2450 2    50   ~ 0
+A4
+Text Label 5300 2750 0    50   ~ 0
+VSS
+Text Label 4500 2950 2    50   ~ 0
+D0
+Text Label 5300 2950 0    50   ~ 0
+D1
+Text Label 5300 2850 0    50   ~ 0
+D2
+Text Label 4500 2850 2    50   ~ 0
+A0
+Text Label 4500 2750 2    50   ~ 0
+A1
+Text Label 4500 2650 2    50   ~ 0
+A2
+Text Label 4500 2550 2    50   ~ 0
+A3
+Text Label 5300 2650 0    50   ~ 0
+D3
+Text Label 5300 2550 0    50   ~ 0
+D4
+Text Label 5300 2450 0    50   ~ 0
+D5
+Text Label 5300 2350 0    50   ~ 0
+D6
+Text Label 5300 2250 0    50   ~ 0
+D7
+Text Label 5300 1450 0    50   ~ 0
+A13
+Text Label 5300 1550 0    50   ~ 0
+A8
+Text Label 5300 1650 0    50   ~ 0
+A9
+Text Label 5300 1750 0    50   ~ 0
+A11
+Text Label 5300 1950 0    50   ~ 0
+A10
+Text Label 5300 1350 0    50   ~ 0
+A14
+Text Label 4500 1350 2    50   ~ 0
+A17
+Text Label 4500 1550 2    50   ~ 0
+VDD
+Wire Wire Line
+	4500 1650 4550 1650
+Wire Wire Line
+	4550 1750 4500 1750
+Wire Wire Line
+	4500 1850 4550 1850
+Wire Wire Line
+	4550 1950 4500 1950
+Wire Wire Line
+	4500 2150 4550 2150
+Wire Wire Line
+	4550 2250 4500 2250
+Wire Wire Line
+	4500 2350 4550 2350
+Wire Wire Line
+	4550 2450 4500 2450
+Wire Wire Line
+	4500 2550 4550 2550
+Wire Wire Line
+	4550 2650 4500 2650
+Wire Wire Line
+	4500 2750 4550 2750
+Wire Wire Line
+	4550 2850 4500 2850
+Wire Wire Line
+	4500 2950 4550 2950
+Wire Wire Line
+	5250 2950 5300 2950
+Wire Wire Line
+	5300 2850 5250 2850
+Wire Wire Line
+	5300 2750 5250 2750
+Wire Wire Line
+	5250 2650 5300 2650
+Wire Wire Line
+	5300 2550 5250 2550
+Wire Wire Line
+	5250 2450 5300 2450
+Wire Wire Line
+	5300 2350 5250 2350
+Wire Wire Line
+	5250 2250 5300 2250
+Wire Wire Line
+	5300 1950 5250 1950
+Wire Wire Line
+	5250 1750 5300 1750
+Wire Wire Line
+	5300 1650 5250 1650
+Wire Wire Line
+	5250 1550 5300 1550
+Wire Wire Line
+	5300 1450 5250 1450
+Wire Wire Line
+	5250 1350 5300 1350
+Wire Wire Line
+	4500 1350 4550 1350
+Wire Wire Line
+	4550 1550 4500 1550
+$Comp
+L Device:C C5
+U 1 1 5DBB1F87
+P 4900 3200
+F 0 "C5" V 4850 3100 50  0000 C CNN
+F 1 "100n" V 4950 3350 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 4938 3050 50  0001 C CNN
+F 3 "~" H 4900 3200 50  0001 C CNN
+	1    4900 3200
+	0    1    1    0   
+$EndComp
+Text Label 4700 3200 2    50   ~ 0
+VDD
+Text Label 5100 3200 0    50   ~ 0
+VSS
+$Comp
+L Device:C C6
+U 1 1 5DBB1F93
+P 4900 3400
+F 0 "C6" V 4850 3300 50  0000 C CNN
+F 1 "1u" V 4950 3550 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 4938 3250 50  0001 C CNN
+F 3 "~" H 4900 3400 50  0001 C CNN
+	1    4900 3400
+	0    1    1    0   
+$EndComp
+Text Label 4700 3400 2    50   ~ 0
+VDD
+Text Label 5100 3400 0    50   ~ 0
+VSS
+Wire Wire Line
+	4700 3200 4750 3200
+Wire Wire Line
+	4700 3400 4750 3400
+Wire Wire Line
+	5050 3200 5100 3200
+Wire Wire Line
+	5050 3400 5100 3400
+$Comp
+L SquantorIC:EEPROM_512K8B_PLCC U?
+U 1 1 5DBC77FE
+P 4900 2150
+F 0 "U?" H 4900 3215 50  0000 C CNN
+F 1 "EEPROM_512K8B_PLCC" H 4900 3124 50  0000 C CNN
+F 2 "Package_LCC:PLCC-32_11.4x14.0mm_P1.27mm" H 4900 2300 50  0001 C CNN
+F 3 "" H 4900 2300 50  0001 C CNN
+	1    4900 2150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
