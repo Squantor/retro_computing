@@ -1,4 +1,4 @@
-update=di 15 okt 2019 19:36:25 CEST
+update=di 15 okt 2019 20:28:07 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -273,6 +273,17 @@ Clearance=0.4
 TrackWidth=0.4
 ViaDiameter=0.6
 ViaDrill=0.4
+uViaDiameter=0.6
+uViaDrill=0.3
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/2]
+Name=PWR
+Clearance=0.3
+TrackWidth=0.6
+ViaDiameter=0.8
+ViaDrill=0.6
 uViaDiameter=0.6
 uViaDrill=0.3
 dPairWidth=0.2
