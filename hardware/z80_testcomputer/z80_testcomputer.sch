@@ -1137,4 +1137,68 @@ Wire Wire Line
 	5900 2050 5950 2050
 Wire Wire Line
 	5900 1350 5950 1350
+Text Label 10600 1650 0    50   ~ 0
+D5
+Text Label 10000 1650 2    50   ~ 0
+D4
+Text Label 10600 1750 0    50   ~ 0
+D3
+Text Label 10000 1750 2    50   ~ 0
+D2
+Text Label 10600 1850 0    50   ~ 0
+D1
+Text Label 10000 1850 2    50   ~ 0
+D0
+Text Label 10000 2250 2    50   ~ 0
+!IORQ
+Text Label 10600 2350 0    50   ~ 0
+!RD
+Text Label 10600 2250 0    50   ~ 0
+!WR
+Text Label 10000 2350 2    50   ~ 0
+MCLK
+Text Label 10600 2150 0    50   ~ 0
+!INT
+Text Label 10600 2050 0    50   ~ 0
+!M1
+Text Label 10000 2050 2    50   ~ 0
+!RESET
+Text Label 10000 2150 2    50   ~ 0
+!MREQ
+Text Label 10600 1250 0    50   ~ 0
+A3
+Text Label 10000 1250 2    50   ~ 0
+A2
+Text Label 10600 1450 0    50   ~ 0
+A1
+Text Label 10000 1450 2    50   ~ 0
+A0
+Text Label 10600 1550 0    50   ~ 0
+D7
+Text Label 10000 1550 2    50   ~ 0
+D6
+Text Label 10600 950  0    50   ~ 0
+A9
+Text Label 10000 950  2    50   ~ 0
+A8
+Text Label 10600 1050 0    50   ~ 0
+A7
+Text Label 10000 1050 2    50   ~ 0
+A6
+Text Label 10600 1150 0    50   ~ 0
+A5
+Text Label 10000 1150 2    50   ~ 0
+A4
+Text Label 9200 2350 0    50   ~ 0
+A15
+Text Label 8600 2250 2    50   ~ 0
+A14
+Text Label 9200 2250 0    50   ~ 0
+A13
+Text Label 8600 2150 2    50   ~ 0
+A12
+Text Label 9200 2150 0    50   ~ 0
+A11
+Text Label 8600 2350 2    50   ~ 0
+A10
 $EndSCHEMATC
