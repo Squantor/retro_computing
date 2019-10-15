@@ -1,4 +1,4 @@
-update=ma 14 okt 2019 22:42:32 CEST
+update=di 15 okt 2019 19:36:25 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -35,7 +35,7 @@ MinViaDrill=0.3
 MinMicroViaDiameter=0.381
 MinMicroViaDrill=0.254
 MinHoleToHole=0.25
-TrackWidth1=0.3
+TrackWidth1=0.2
 TrackWidth2=0.15
 TrackWidth3=0.2
 TrackWidth4=0.3
@@ -259,9 +259,20 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.2
-TrackWidth=0.3
+TrackWidth=0.2
 ViaDiameter=0.6
 ViaDrill=0.3
+uViaDiameter=0.6
+uViaDrill=0.3
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=CLK
+Clearance=0.4
+TrackWidth=0.4
+ViaDiameter=0.6
+ViaDrill=0.4
 uViaDiameter=0.6
 uViaDrill=0.3
 dPairWidth=0.2
