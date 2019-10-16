@@ -1146,4 +1146,12 @@ Text Notes 10450 2900 0    50   ~ 0
 Interface Bus
 Wire Notes Line
 	11000 2950 9850 2950
+Text Label 6550 1550 2    50   ~ 0
+A0
+Wire Wire Line
+	6600 1550 6550 1550
+Text Label 7550 2550 0    50   ~ 0
+MCLK
+Wire Wire Line
+	7550 2550 7500 2550
 $EndSCHEMATC
