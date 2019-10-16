@@ -156,7 +156,7 @@ Wire Wire Line
 	1450 7500 1500 7500
 Text Label 10700 1450 0    50   ~ 0
 VSS
-Text Label 10100 2050 2    50   ~ 0
+Text Label 10700 2050 0    50   ~ 0
 VSS
 Wire Wire Line
 	10650 1850 10700 1850
@@ -898,7 +898,7 @@ U 1 1 5DA99C53
 P 3300 2350
 F 0 "J3" H 3380 2342 50  0000 L CNN
 F 1 "Conn_01x32" H 3380 2251 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x32_P1.27mm_Vertical" H 3300 2350 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x33_P1.27mm_Vertical" H 3300 2350 50  0001 C CNN
 F 3 "~" H 3300 2350 50  0001 C CNN
 	1    3300 2350
 	1    0    0    -1  
@@ -925,7 +925,7 @@ Text Label 3050 2950 2    50   ~ 0
 D1
 Text Label 3050 3050 2    50   ~ 0
 D0
-Text Label 3050 3550 2    50   ~ 0
+Text Label 3050 3450 2    50   ~ 0
 !MREQ
 Text Label 3050 3750 2    50   ~ 0
 !IORQ
@@ -937,7 +937,7 @@ Text Label 3050 3950 2    50   ~ 0
 MCLK
 Text Label 3050 3250 2    50   ~ 0
 !RESET
-Text Label 3050 3450 2    50   ~ 0
+Text Label 3050 3350 2    50   ~ 0
 !INT
 Wire Wire Line
 	3050 750  3100 750 
@@ -1049,13 +1049,13 @@ Text Label 10700 2350 0    50   ~ 0
 !WR
 Text Label 10100 2550 2    50   ~ 0
 MCLK
-Text Label 10700 2250 0    50   ~ 0
-!INT
 Text Label 10100 2150 2    50   ~ 0
+!INT
+Text Label 10100 2050 2    50   ~ 0
 !M1
-Text Label 10700 2050 0    50   ~ 0
-!RESET
 Text Label 10700 2150 0    50   ~ 0
+!RESET
+Text Label 10700 2250 0    50   ~ 0
 !MREQ
 Text Label 10700 1350 0    50   ~ 0
 A3
@@ -1083,7 +1083,7 @@ Text Label 10100 1250 2    50   ~ 0
 A4
 Text Label 10100 2250 2    50   ~ 0
 !WAIT
-Text Label 3050 3350 2    50   ~ 0
+Text Label 3050 3550 2    50   ~ 0
 !WAIT
 Wire Wire Line
 	3050 3950 3100 3950
