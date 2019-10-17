@@ -1086,12 +1086,6 @@ Wire Wire Line
 	6500 850  6550 850 
 Text Label 6550 950  0    50   ~ 0
 !IOSEL0
-Text Label 6550 1050 0    50   ~ 0
-!IOSEL1
-Text Label 6550 1150 0    50   ~ 0
-!IOSEL2
-Text Label 6550 1250 0    50   ~ 0
-!IOSEL3
 NoConn ~ 6500 1350
 NoConn ~ 6500 1450
 NoConn ~ 6500 1550
@@ -1136,12 +1130,6 @@ Wire Wire Line
 	5800 1850 5850 1850
 Wire Wire Line
 	6500 950  6550 950 
-Wire Wire Line
-	6550 1050 6500 1050
-Wire Wire Line
-	6500 1150 6550 1150
-Wire Wire Line
-	6550 1250 6500 1250
 Text Label 5850 850  2    50   ~ 0
 A2
 Text Label 5850 950  2    50   ~ 0
@@ -1154,21 +1142,8 @@ Wire Wire Line
 	5900 950  5850 950 
 Wire Wire Line
 	5850 1050 5900 1050
-$Comp
-L Device:R R1
-U 1 1 5DD30BD3
-P 5700 1250
-F 0 "R1" V 5650 1100 50  0000 C CNN
-F 1 "10k" V 5700 1250 50  0000 C CNN
-F 2 "SquantorRcl:C_0805+0603" V 5630 1250 50  0001 C CNN
-F 3 "~" H 5700 1250 50  0001 C CNN
-	1    5700 1250
-	0    1    1    0   
-$EndComp
 Text Label 5500 1150 2    50   ~ 0
 !IORQ
-Text Label 5500 1250 2    50   ~ 0
-VSS
 $Comp
 L Device:R R2
 U 1 1 5DD3391F
@@ -1182,8 +1157,6 @@ F 3 "~" H 5700 1350 50  0001 C CNN
 $EndComp
 Text Label 5500 1350 2    50   ~ 0
 VDD
-Wire Wire Line
-	5500 1250 5550 1250
 Wire Wire Line
 	5500 1350 5550 1350
 Wire Wire Line
@@ -1200,4 +1173,9 @@ Wire Notes Line
 	5250 600  5250 2150
 Wire Notes Line
 	5250 2150 6900 2150
+NoConn ~ 6500 1250
+NoConn ~ 6500 1150
+NoConn ~ 6500 1050
+Text Label 5850 1250 2    50   ~ 0
+A5
 $EndSCHEMATC
