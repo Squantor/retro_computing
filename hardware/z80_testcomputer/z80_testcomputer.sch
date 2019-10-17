@@ -1059,4 +1059,145 @@ Wire Notes Line
 	9350 3050 9350 2900
 Wire Notes Line
 	9350 2900 9800 2900
+Text Notes 6450 2100 0    50   ~ 0
+I/O select
+Wire Notes Line
+	6400 2150 6400 2000
+Wire Notes Line
+	6400 2000 6900 2000
+$Comp
+L SquantorLogic:74XX138 U?
+U 1 1 5DB833E4
+P 6200 1200
+F 0 "U?" H 6200 1700 50  0000 C CNN
+F 1 "74XX138" H 6200 700 50  0000 C CNN
+F 2 "Package_DIP:DIP-18_W7.62mm_Socket" H 6200 1150 50  0001 C CNN
+F 3 "" H 6200 1150 50  0001 C CNN
+	1    6200 1200
+	1    0    0    -1  
+$EndComp
+Text Label 5850 1550 2    50   ~ 0
+VSS
+Text Label 6550 850  0    50   ~ 0
+VDD
+Wire Wire Line
+	5850 1550 5900 1550
+Wire Wire Line
+	6500 850  6550 850 
+Text Label 6550 950  0    50   ~ 0
+!IOSEL0
+Text Label 6550 1050 0    50   ~ 0
+!IOSEL1
+Text Label 6550 1150 0    50   ~ 0
+!IOSEL2
+Text Label 6550 1250 0    50   ~ 0
+!IOSEL3
+NoConn ~ 6500 1350
+NoConn ~ 6500 1450
+NoConn ~ 6500 1550
+NoConn ~ 5900 1450
+$Comp
+L Device:C C?
+U 1 1 5DBFEA51
+P 5650 1850
+F 0 "C?" V 5600 1750 50  0000 C CNN
+F 1 "1u" V 5700 2000 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 5688 1700 50  0001 C CNN
+F 3 "~" H 5650 1850 50  0001 C CNN
+	1    5650 1850
+	0    1    1    0   
+$EndComp
+Text Label 5850 1850 0    50   ~ 0
+VSS
+Text Label 5450 1850 2    50   ~ 0
+VDD
+$Comp
+L Device:C C?
+U 1 1 5DC24CF2
+P 6400 1850
+F 0 "C?" V 6350 1750 50  0000 C CNN
+F 1 "100n" V 6450 2000 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 6438 1700 50  0001 C CNN
+F 3 "~" H 6400 1850 50  0001 C CNN
+	1    6400 1850
+	0    1    1    0   
+$EndComp
+Text Label 6200 1850 2    50   ~ 0
+VDD
+Text Label 6600 1850 0    50   ~ 0
+VSS
+Wire Wire Line
+	6200 1850 6250 1850
+Wire Wire Line
+	6550 1850 6600 1850
+Wire Wire Line
+	5450 1850 5500 1850
+Wire Wire Line
+	5800 1850 5850 1850
+Wire Wire Line
+	6500 950  6550 950 
+Wire Wire Line
+	6550 1050 6500 1050
+Wire Wire Line
+	6500 1150 6550 1150
+Wire Wire Line
+	6550 1250 6500 1250
+Text Label 5850 850  2    50   ~ 0
+A2
+Text Label 5850 950  2    50   ~ 0
+A3
+Text Label 5850 1050 2    50   ~ 0
+A4
+Wire Wire Line
+	5850 850  5900 850 
+Wire Wire Line
+	5900 950  5850 950 
+Wire Wire Line
+	5850 1050 5900 1050
+$Comp
+L Device:R R?
+U 1 1 5DD30BD3
+P 5700 1250
+F 0 "R?" V 5650 1100 50  0000 C CNN
+F 1 "10k" V 5700 1250 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" V 5630 1250 50  0001 C CNN
+F 3 "~" H 5700 1250 50  0001 C CNN
+	1    5700 1250
+	0    1    1    0   
+$EndComp
+Text Label 5500 1150 2    50   ~ 0
+!IORQ
+Text Label 5500 1250 2    50   ~ 0
+VSS
+$Comp
+L Device:R R?
+U 1 1 5DD3391F
+P 5700 1350
+F 0 "R?" V 5650 1200 50  0000 C CNN
+F 1 "10k" V 5700 1350 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" V 5630 1350 50  0001 C CNN
+F 3 "~" H 5700 1350 50  0001 C CNN
+	1    5700 1350
+	0    1    1    0   
+$EndComp
+Text Label 5500 1350 2    50   ~ 0
+VDD
+Wire Wire Line
+	5500 1250 5550 1250
+Wire Wire Line
+	5500 1350 5550 1350
+Wire Wire Line
+	5850 1250 5900 1250
+Wire Wire Line
+	5900 1350 5850 1350
+Wire Wire Line
+	5500 1150 5900 1150
+Wire Notes Line
+	6900 2150 6900 600 
+Wire Notes Line
+	6900 600  5250 600 
+Wire Notes Line
+	5250 600  5250 2150
+Wire Notes Line
+	5250 2150 6900 2150
 $EndSCHEMATC
