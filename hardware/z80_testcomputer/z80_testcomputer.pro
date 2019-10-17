@@ -1,4 +1,4 @@
-update=di 15 okt 2019 21:37:32 CEST
+update=do 17 okt 2019 20:13:40 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -269,7 +269,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=CLK
-Clearance=0.3
+Clearance=0.2
 TrackWidth=0.4
 ViaDiameter=0.6
 ViaDrill=0.4
