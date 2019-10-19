@@ -1217,21 +1217,21 @@ Wire Wire Line
 	3200 5850 3150 5850
 Text Label 3150 5850 2    50   ~ 0
 !RESET
-Text Label 3150 6050 2    50   ~ 0
-D0
-Text Label 3150 6150 2    50   ~ 0
-D1
-Text Label 3150 6450 2    50   ~ 0
-D2
-Text Label 3150 6550 2    50   ~ 0
-D3
 Text Label 3850 6550 0    50   ~ 0
-D4
+D0
 Text Label 3850 6450 0    50   ~ 0
-D5
+D1
 Text Label 3850 6150 0    50   ~ 0
-D6
+D2
 Text Label 3850 6050 0    50   ~ 0
+D3
+Text Label 3150 6050 2    50   ~ 0
+D4
+Text Label 3150 6150 2    50   ~ 0
+D5
+Text Label 3150 6450 2    50   ~ 0
+D6
+Text Label 3150 6550 2    50   ~ 0
 D7
 Wire Wire Line
 	3150 6050 3200 6050
@@ -1249,25 +1249,25 @@ Wire Wire Line
 	3800 6150 3850 6150
 Wire Wire Line
 	3850 6050 3800 6050
-Text Label 3850 5950 0    50   ~ 0
+Text Label 3150 6650 2    50   ~ 0
 A18_ROM
-Text Label 3850 6250 0    50   ~ 0
+Text Label 3150 6350 2    50   ~ 0
 A17_ROM
-Text Label 3850 6350 0    50   ~ 0
+Text Label 3150 6250 2    50   ~ 0
 A16_ROM
-Text Label 3850 6650 0    50   ~ 0
+Text Label 3150 5950 2    50   ~ 0
 A15_ROM
 Wire Wire Line
 	3800 6750 3850 6750
 Text Label 3850 6750 0    50   ~ 0
 BANK_CP
-Text Label 3150 6650 2    50   ~ 0
+Text Label 3850 5950 0    50   ~ 0
 A14_ROM
-Text Label 3150 6350 2    50   ~ 0
+Text Label 3850 6250 0    50   ~ 0
 A13_ROM
-Text Label 3150 6250 2    50   ~ 0
+Text Label 3850 6350 0    50   ~ 0
 A12_ROM
-Text Label 3150 5950 2    50   ~ 0
+Text Label 3850 6650 0    50   ~ 0
 !BOOT
 Wire Wire Line
 	3150 6250 3200 6250
