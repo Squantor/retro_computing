@@ -1206,4 +1206,246 @@ F 3 "~" H 9150 2750 50  0001 C CNN
 	1    9150 2750
 	0    1    1    0   
 $EndComp
+$Comp
+L SquantorZilog:Z84C200XPEG U5
+U 1 1 5DB2D5F3
+P 5600 1700
+F 0 "U5" H 5600 2700 50  0000 C CNN
+F 1 "Z84C200XPEG" H 5600 500 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 5500 2000 50  0001 C CNN
+F 3 "" H 5500 2000 50  0001 C CNN
+	1    5600 1700
+	1    0    0    -1  
+$EndComp
+Text Label 6100 2250 0    50   ~ 0
+VDD
+$Comp
+L Device:C C9
+U 1 1 5DB3413B
+P 5600 3100
+F 0 "C9" V 5550 3000 50  0000 C CNN
+F 1 "100n" V 5650 3250 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 5638 2950 50  0001 C CNN
+F 3 "~" H 5600 3100 50  0001 C CNN
+	1    5600 3100
+	0    1    1    0   
+$EndComp
+Text Label 5400 3100 2    50   ~ 0
+VDD
+Text Label 5800 3100 0    50   ~ 0
+VSS
+$Comp
+L Device:C C10
+U 1 1 5DB34147
+P 5600 3300
+F 0 "C10" V 5550 3200 50  0000 C CNN
+F 1 "1u" V 5650 3450 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 5638 3150 50  0001 C CNN
+F 3 "~" H 5600 3300 50  0001 C CNN
+	1    5600 3300
+	0    1    1    0   
+$EndComp
+Text Label 5400 3300 2    50   ~ 0
+VDD
+Text Label 5800 3300 0    50   ~ 0
+VSS
+Wire Wire Line
+	5400 3100 5450 3100
+Wire Wire Line
+	5400 3300 5450 3300
+Wire Wire Line
+	5750 3100 5800 3100
+Wire Wire Line
+	5750 3300 5800 3300
+Text Label 5100 1850 2    50   ~ 0
+VSS
+Wire Wire Line
+	5100 1850 5150 1850
+Wire Wire Line
+	6050 2250 6100 2250
+Text Label 6100 2350 0    50   ~ 0
+MCLK
+Text Label 6100 2550 0    50   ~ 0
+!INT
+Text Label 6100 1250 0    50   ~ 0
+!IORQ
+Text Label 6100 1150 0    50   ~ 0
+!M1
+Text Label 5100 1150 2    50   ~ 0
+SEL_PIO
+Text Label 5100 2650 2    50   ~ 0
+D0
+Text Label 5100 2750 2    50   ~ 0
+D1
+Text Label 6100 850  0    50   ~ 0
+D3
+Text Label 6100 950  0    50   ~ 0
+D4
+Text Label 6100 1050 0    50   ~ 0
+D5
+Text Label 5100 1050 2    50   ~ 0
+D6
+Text Label 5100 950  2    50   ~ 0
+D7
+Text Label 5100 850  2    50   ~ 0
+D2
+Text Label 5100 1250 2    50   ~ 0
+A1
+Text Label 5100 1350 2    50   ~ 0
+A0
+Wire Wire Line
+	5100 850  5150 850 
+Wire Wire Line
+	5150 950  5100 950 
+Wire Wire Line
+	5100 1050 5150 1050
+Wire Wire Line
+	5150 1150 5100 1150
+Wire Wire Line
+	5100 1250 5150 1250
+Wire Wire Line
+	5150 1350 5100 1350
+Wire Wire Line
+	6050 850  6100 850 
+Wire Wire Line
+	6100 950  6050 950 
+Wire Wire Line
+	6050 1050 6100 1050
+Wire Wire Line
+	6100 1150 6050 1150
+Wire Wire Line
+	6050 1250 6100 1250
+Wire Wire Line
+	6050 1350 6100 1350
+Text Label 6100 1350 0    50   ~ 0
+!RD
+Wire Wire Line
+	5100 2650 5150 2650
+Wire Wire Line
+	5150 2750 5100 2750
+Wire Wire Line
+	6050 2550 6100 2550
+Wire Wire Line
+	6100 2350 6050 2350
+$Comp
+L SquantorZilog:Z84C200XPEG U?
+U 1 1 5DD16AB5
+P 3950 1700
+F 0 "U?" H 3950 2700 50  0000 C CNN
+F 1 "Z84C200XPEG" H 3950 500 50  0000 C CNN
+F 2 "Package_DIP:DIP-40_W15.24mm_Socket" H 3850 2000 50  0001 C CNN
+F 3 "" H 3850 2000 50  0001 C CNN
+	1    3950 1700
+	1    0    0    -1  
+$EndComp
+Text Label 4450 2250 0    50   ~ 0
+VDD
+$Comp
+L Device:C C?
+U 1 1 5DD16AC0
+P 3950 3100
+F 0 "C?" V 3900 3000 50  0000 C CNN
+F 1 "100n" V 4000 3250 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 3988 2950 50  0001 C CNN
+F 3 "~" H 3950 3100 50  0001 C CNN
+	1    3950 3100
+	0    1    1    0   
+$EndComp
+Text Label 3750 3100 2    50   ~ 0
+VDD
+Text Label 4150 3100 0    50   ~ 0
+VSS
+$Comp
+L Device:C C?
+U 1 1 5DD16ACC
+P 3950 3300
+F 0 "C?" V 3900 3200 50  0000 C CNN
+F 1 "1u" V 4000 3450 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 3988 3150 50  0001 C CNN
+F 3 "~" H 3950 3300 50  0001 C CNN
+	1    3950 3300
+	0    1    1    0   
+$EndComp
+Text Label 3750 3300 2    50   ~ 0
+VDD
+Text Label 4150 3300 0    50   ~ 0
+VSS
+Wire Wire Line
+	3750 3100 3800 3100
+Wire Wire Line
+	3750 3300 3800 3300
+Wire Wire Line
+	4100 3100 4150 3100
+Wire Wire Line
+	4100 3300 4150 3300
+Text Label 3450 1850 2    50   ~ 0
+VSS
+Wire Wire Line
+	3450 1850 3500 1850
+Wire Wire Line
+	4400 2250 4450 2250
+Text Label 4450 2350 0    50   ~ 0
+MCLK
+Text Label 4450 2550 0    50   ~ 0
+!INT
+Text Label 4450 1250 0    50   ~ 0
+!IORQ
+Text Label 4450 1150 0    50   ~ 0
+!M1
+Text Label 3450 1150 2    50   ~ 0
+SEL_PIO
+Text Label 3450 2650 2    50   ~ 0
+D0
+Text Label 3450 2750 2    50   ~ 0
+D1
+Text Label 4450 850  0    50   ~ 0
+D3
+Text Label 4450 950  0    50   ~ 0
+D4
+Text Label 4450 1050 0    50   ~ 0
+D5
+Text Label 3450 1050 2    50   ~ 0
+D6
+Text Label 3450 950  2    50   ~ 0
+D7
+Text Label 3450 850  2    50   ~ 0
+D2
+Text Label 3450 1250 2    50   ~ 0
+A1
+Text Label 3450 1350 2    50   ~ 0
+A0
+Wire Wire Line
+	3450 850  3500 850 
+Wire Wire Line
+	3500 950  3450 950 
+Wire Wire Line
+	3450 1050 3500 1050
+Wire Wire Line
+	3500 1150 3450 1150
+Wire Wire Line
+	3450 1250 3500 1250
+Wire Wire Line
+	3500 1350 3450 1350
+Wire Wire Line
+	4400 850  4450 850 
+Wire Wire Line
+	4450 950  4400 950 
+Wire Wire Line
+	4400 1050 4450 1050
+Wire Wire Line
+	4450 1150 4400 1150
+Wire Wire Line
+	4400 1250 4450 1250
+Wire Wire Line
+	4400 1350 4450 1350
+Text Label 4450 1350 0    50   ~ 0
+!RD
+Wire Wire Line
+	3450 2650 3500 2650
+Wire Wire Line
+	3500 2750 3450 2750
+Wire Wire Line
+	4400 2550 4450 2550
+Wire Wire Line
+	4450 2350 4400 2350
 $EndSCHEMATC
