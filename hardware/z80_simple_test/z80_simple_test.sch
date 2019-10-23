@@ -1658,10 +1658,10 @@ Wire Wire Line
 Wire Wire Line
 	3800 4650 3850 4650
 $Comp
-L Connector:Barrel_Jack_Switch J?
+L Connector:Barrel_Jack_Switch J1
 U 1 1 5E13A5ED
 P 6250 6400
-F 0 "J?" H 6250 6600 50  0000 C CNN
+F 0 "J1" H 6250 6600 50  0000 C CNN
 F 1 "Barrel_Jack_Switch" H 6250 6200 50  0000 C CNN
 F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 6300 6360 50  0001 C CNN
 F 3 "~" H 6300 6360 50  0001 C CNN
