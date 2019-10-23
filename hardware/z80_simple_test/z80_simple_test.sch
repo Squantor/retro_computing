@@ -30,7 +30,7 @@ L SquantorLabels:VYYYYMMDD N2
 U 1 1 5DA0A665
 P 6100 7150
 F 0 "N2" H 6050 7250 60  0000 L CNN
-F 1 "V:20191011" H 5850 7150 60  0000 L CNN
+F 1 "V:20191023" H 5850 7150 60  0000 L CNN
 F 2 "SquantorLabels:Label_Generic" H 6100 7150 60  0001 C CNN
 F 3 "" H 6100 7150 60  0001 C CNN
 	1    6100 7150
@@ -723,8 +723,6 @@ Text Label 9400 1650 0    50   ~ 0
 !MEM_RD
 Text Label 7750 1850 0    50   ~ 0
 !RAM_CE
-Text Label 9400 1850 0    50   ~ 0
-!ROM_CE
 Wire Wire Line
 	7700 1150 7750 1150
 Wire Wire Line
@@ -1357,4 +1355,344 @@ NoConn ~ 4400 2250
 NoConn ~ 4400 2150
 NoConn ~ 4400 2050
 NoConn ~ 4400 1950
+$Comp
+L Device:C C11
+U 1 1 5DB40C2C
+P 3100 6750
+F 0 "C11" V 3050 6650 50  0000 C CNN
+F 1 "1u" V 3150 6900 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 3138 6600 50  0001 C CNN
+F 3 "~" H 3100 6750 50  0001 C CNN
+	1    3100 6750
+	0    1    1    0   
+$EndComp
+Text Label 3300 6750 0    50   ~ 0
+VSS
+Text Label 2900 6750 2    50   ~ 0
+VDD
+$Comp
+L Device:C C13
+U 1 1 5DB40C38
+P 3850 6750
+F 0 "C13" V 3800 6650 50  0000 C CNN
+F 1 "100n" V 3900 6900 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 3888 6600 50  0001 C CNN
+F 3 "~" H 3850 6750 50  0001 C CNN
+	1    3850 6750
+	0    1    1    0   
+$EndComp
+Text Label 3650 6750 2    50   ~ 0
+VDD
+Text Label 4050 6750 0    50   ~ 0
+VSS
+Wire Wire Line
+	3650 6750 3700 6750
+Wire Wire Line
+	4000 6750 4050 6750
+Wire Wire Line
+	2900 6750 2950 6750
+Wire Wire Line
+	3250 6750 3300 6750
+Text Label 3850 5850 0    50   ~ 0
+VDD
+Text Label 3150 6450 2    50   ~ 0
+VSS
+Wire Wire Line
+	3800 5850 3850 5850
+Wire Wire Line
+	3200 6450 3150 6450
+Text Label 3100 5850 2    50   ~ 0
+A15
+Wire Wire Line
+	3200 5950 3150 5950
+Wire Wire Line
+	3150 5950 3150 5850
+Wire Wire Line
+	3150 5850 3200 5850
+Wire Wire Line
+	3100 5850 3150 5850
+Connection ~ 3150 5850
+Text Label 9400 1850 0    50   ~ 0
+A15
+Text Label 3150 6050 2    50   ~ 0
+!RAM_CE
+Wire Wire Line
+	3200 6050 3150 6050
+$Comp
+L SquantorLogic:74XX00 U7
+U 1 1 5DC0030A
+P 3500 6150
+F 0 "U7" H 3500 6715 50  0000 C CNN
+F 1 "74XX00" H 3500 6624 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 3500 6000 50  0001 C CNN
+F 3 "" H 3500 6000 50  0001 C CNN
+	1    3500 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SquantorLogic:74XX32 U6
+U 1 1 5DC00CEE
+P 3500 4850
+F 0 "U6" H 3500 5415 50  0000 C CNN
+F 1 "74XX32" H 3500 5324 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm_Socket" H 3500 4700 50  0001 C CNN
+F 3 "" H 3500 4700 50  0001 C CNN
+	1    3500 4850
+	1    0    0    -1  
+$EndComp
+Text Label 3150 4550 2    50   ~ 0
+!MREQ
+Text Label 3150 4850 2    50   ~ 0
+!MREQ
+Text Label 3150 4650 2    50   ~ 0
+!WR
+Text Label 3150 4950 2    50   ~ 0
+!RD
+Text Label 3150 5150 2    50   ~ 0
+VSS
+Text Label 3850 4550 0    50   ~ 0
+VDD
+$Comp
+L Device:C C12
+U 1 1 5DC0B613
+P 3150 5450
+F 0 "C12" V 3100 5350 50  0000 C CNN
+F 1 "1u" V 3200 5600 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 3188 5300 50  0001 C CNN
+F 3 "~" H 3150 5450 50  0001 C CNN
+	1    3150 5450
+	0    1    1    0   
+$EndComp
+Text Label 3350 5450 0    50   ~ 0
+VSS
+Text Label 2950 5450 2    50   ~ 0
+VDD
+$Comp
+L Device:C C14
+U 1 1 5DC0B61F
+P 3900 5450
+F 0 "C14" V 3850 5350 50  0000 C CNN
+F 1 "100n" V 3950 5600 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" H 3938 5300 50  0001 C CNN
+F 3 "~" H 3900 5450 50  0001 C CNN
+	1    3900 5450
+	0    1    1    0   
+$EndComp
+Text Label 3700 5450 2    50   ~ 0
+VDD
+Text Label 4100 5450 0    50   ~ 0
+VSS
+Wire Wire Line
+	3700 5450 3750 5450
+Wire Wire Line
+	4050 5450 4100 5450
+Wire Wire Line
+	2950 5450 3000 5450
+Wire Wire Line
+	3300 5450 3350 5450
+Wire Wire Line
+	3150 4550 3200 4550
+Wire Wire Line
+	3200 4650 3150 4650
+Wire Wire Line
+	3150 4850 3200 4850
+Wire Wire Line
+	3200 4950 3150 4950
+Wire Wire Line
+	3150 5150 3200 5150
+Wire Wire Line
+	3800 4550 3850 4550
+Text Label 3150 5050 2    50   ~ 0
+!MEM_RD
+Text Label 3150 4750 2    50   ~ 0
+!MEM_WR
+Wire Wire Line
+	3200 4750 3150 4750
+Wire Wire Line
+	3200 5050 3150 5050
+$Comp
+L Device:R R12
+U 1 1 5DD4ADBF
+P 3000 6150
+F 0 "R12" V 2950 6000 50  0000 C CNN
+F 1 "10k" V 3000 6150 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" V 2930 6150 50  0001 C CNN
+F 3 "~" H 3000 6150 50  0001 C CNN
+	1    3000 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5DD4C5C2
+P 3000 6250
+F 0 "R13" V 2950 6100 50  0000 C CNN
+F 1 "10k" V 3000 6250 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" V 2930 6250 50  0001 C CNN
+F 3 "~" H 3000 6250 50  0001 C CNN
+	1    3000 6250
+	0    1    1    0   
+$EndComp
+NoConn ~ 3200 6350
+NoConn ~ 3800 6450
+NoConn ~ 3800 6150
+Text Label 2800 6250 2    50   ~ 0
+VSS
+Text Label 2800 6150 2    50   ~ 0
+VSS
+Wire Wire Line
+	3200 6150 3150 6150
+Wire Wire Line
+	3200 6250 3150 6250
+Wire Wire Line
+	2800 6250 2850 6250
+Wire Wire Line
+	2850 6150 2800 6150
+$Comp
+L Device:R R20
+U 1 1 5DE29107
+P 4000 6250
+F 0 "R20" V 3950 6100 50  0000 C CNN
+F 1 "10k" V 4000 6250 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" V 3930 6250 50  0001 C CNN
+F 3 "~" H 4000 6250 50  0001 C CNN
+	1    4000 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 5DE2BC9B
+P 4000 6350
+F 0 "R21" V 3950 6200 50  0000 C CNN
+F 1 "10k" V 4000 6350 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" V 3930 6350 50  0001 C CNN
+F 3 "~" H 4000 6350 50  0001 C CNN
+	1    4000 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5DE2C060
+P 4000 6050
+F 0 "R19" V 3950 5900 50  0000 C CNN
+F 1 "10k" V 4000 6050 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" V 3930 6050 50  0001 C CNN
+F 3 "~" H 4000 6050 50  0001 C CNN
+	1    4000 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5DE2C56B
+P 4000 5950
+F 0 "R18" V 3950 5800 50  0000 C CNN
+F 1 "10k" V 4000 5950 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" V 3930 5950 50  0001 C CNN
+F 3 "~" H 4000 5950 50  0001 C CNN
+	1    4000 5950
+	0    1    1    0   
+$EndComp
+Text Label 4200 5900 0    50   ~ 0
+VDD
+Wire Wire Line
+	4200 5900 4200 5950
+Wire Wire Line
+	4200 6350 4150 6350
+Wire Wire Line
+	4150 6250 4200 6250
+Connection ~ 4200 6250
+Wire Wire Line
+	4200 6250 4200 6350
+Wire Wire Line
+	4150 6050 4200 6050
+Connection ~ 4200 6050
+Wire Wire Line
+	4200 6050 4200 6250
+Wire Wire Line
+	4200 5950 4150 5950
+Connection ~ 4200 5950
+Wire Wire Line
+	4200 5950 4200 6050
+Wire Wire Line
+	3800 5950 3850 5950
+Wire Wire Line
+	3850 6050 3800 6050
+Wire Wire Line
+	3800 6250 3850 6250
+Wire Wire Line
+	3850 6350 3800 6350
+$Comp
+L Device:R R17
+U 1 1 5DF6C07E
+P 4000 5050
+F 0 "R17" V 3950 4900 50  0000 C CNN
+F 1 "10k" V 4000 5050 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" V 3930 5050 50  0001 C CNN
+F 3 "~" H 4000 5050 50  0001 C CNN
+	1    4000 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5DF6CCEE
+P 4000 4950
+F 0 "R16" V 3950 4800 50  0000 C CNN
+F 1 "10k" V 4000 4950 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" V 3930 4950 50  0001 C CNN
+F 3 "~" H 4000 4950 50  0001 C CNN
+	1    4000 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5DF6CF14
+P 4000 4750
+F 0 "R15" V 3950 4600 50  0000 C CNN
+F 1 "10k" V 4000 4750 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" V 3930 4750 50  0001 C CNN
+F 3 "~" H 4000 4750 50  0001 C CNN
+	1    4000 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5DF6D2CC
+P 4000 4650
+F 0 "R14" V 3950 4500 50  0000 C CNN
+F 1 "10k" V 4000 4650 50  0000 C CNN
+F 2 "SquantorRcl:C_0805+0603" V 3930 4650 50  0001 C CNN
+F 3 "~" H 4000 4650 50  0001 C CNN
+	1    4000 4650
+	0    1    1    0   
+$EndComp
+NoConn ~ 3800 5150
+NoConn ~ 3800 4850
+Text Label 4200 4600 0    50   ~ 0
+VDD
+Wire Wire Line
+	4200 4600 4200 4650
+Wire Wire Line
+	4200 5050 4150 5050
+Wire Wire Line
+	4150 4950 4200 4950
+Connection ~ 4200 4950
+Wire Wire Line
+	4200 4950 4200 5050
+Wire Wire Line
+	4200 4750 4150 4750
+Connection ~ 4200 4750
+Wire Wire Line
+	4200 4750 4200 4950
+Wire Wire Line
+	4150 4650 4200 4650
+Connection ~ 4200 4650
+Wire Wire Line
+	4200 4650 4200 4750
+Wire Wire Line
+	3850 5050 3800 5050
+Wire Wire Line
+	3800 4950 3850 4950
+Wire Wire Line
+	3850 4750 3800 4750
+Wire Wire Line
+	3800 4650 3850 4650
 $EndSCHEMATC
