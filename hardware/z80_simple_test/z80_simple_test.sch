@@ -97,24 +97,13 @@ Wire Notes Line
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5DA19E1A
-P 6650 6150
-F 0 "#FLG0101" H 6650 6225 50  0001 C CNN
-F 1 "PWR_FLAG" H 6600 6200 50  0000 R CNN
-F 2 "" H 6650 6150 50  0001 C CNN
-F 3 "~" H 6650 6150 50  0001 C CNN
-	1    6650 6150
+P 6850 6050
+F 0 "#FLG0101" H 6850 6125 50  0001 C CNN
+F 1 "PWR_FLAG" H 6800 6100 50  0000 R CNN
+F 2 "" H 6850 6050 50  0001 C CNN
+F 3 "~" H 6850 6050 50  0001 C CNN
+	1    6850 6050
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0102
-U 1 1 5DA1AB69
-P 6650 6650
-F 0 "#FLG0102" H 6650 6725 50  0001 C CNN
-F 1 "PWR_FLAG" H 7100 6750 50  0000 R CNN
-F 2 "" H 6650 6650 50  0001 C CNN
-F 3 "~" H 6650 6650 50  0001 C CNN
-	1    6650 6650
-	-1   0    0    1   
 $EndComp
 Text Label 10750 1550 0    50   ~ 0
 VSS
@@ -1619,36 +1608,8 @@ Wire Wire Line
 	3850 4750 3800 4750
 Wire Wire Line
 	3800 4650 3850 4650
-$Comp
-L Connector:Barrel_Jack_Switch J1
-U 1 1 5E13A5ED
-P 6250 6400
-F 0 "J1" H 6250 6600 50  0000 C CNN
-F 1 "Barrel_Jack_Switch" H 6250 6200 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 6300 6360 50  0001 C CNN
-F 3 "~" H 6300 6360 50  0001 C CNN
-	1    6250 6400
-	1    0    0    -1  
-$EndComp
-Text Label 6800 6300 0    50   ~ 0
+Text Label 6900 6100 0    50   ~ 0
 VDD
-Text Label 6800 6500 0    50   ~ 0
-VSS
-Wire Wire Line
-	6550 6300 6650 6300
-Wire Wire Line
-	6800 6500 6650 6500
-Wire Wire Line
-	6650 6150 6650 6300
-Connection ~ 6650 6300
-Wire Wire Line
-	6650 6300 6800 6300
-Wire Wire Line
-	6650 6500 6650 6650
-Connection ~ 6650 6500
-Wire Wire Line
-	6650 6500 6550 6500
-NoConn ~ 6550 6400
 Text Label 4200 5000 0    50   ~ 0
 VDD
 Wire Wire Line
@@ -1682,4 +1643,61 @@ $EndComp
 Wire Wire Line
 	3850 4850 3800 4850
 NoConn ~ 3150 5050
+$Comp
+L Switch:SW_Push_SPDT SW1
+U 1 1 5DB61862
+P 6550 6200
+F 0 "SW1" H 6400 6300 50  0000 C CNN
+F 1 "SW_Push_SPDT" H 6550 6000 50  0000 C CNN
+F 2 "SquantorSwitches:MS_500AVT" H 6550 6200 50  0001 C CNN
+F 3 "~" H 6550 6200 50  0001 C CNN
+	1    6550 6200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6250 6450
+Wire Wire Line
+	6350 6550 6250 6550
+Connection ~ 6350 6550
+Wire Wire Line
+	6350 6550 6350 6650
+Wire Wire Line
+	6500 6550 6350 6550
+Text Label 6500 6550 0    50   ~ 0
+VSS
+$Comp
+L Connector:Barrel_Jack_Switch J1
+U 1 1 5E13A5ED
+P 5950 6450
+F 0 "J1" H 5950 6650 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 5950 6250 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 6000 6410 50  0001 C CNN
+F 3 "~" H 6000 6410 50  0001 C CNN
+	1    5950 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5DA1AB69
+P 6350 6650
+F 0 "#FLG0102" H 6350 6725 50  0001 C CNN
+F 1 "PWR_FLAG" H 6800 6750 50  0000 R CNN
+F 2 "" H 6350 6650 50  0001 C CNN
+F 3 "~" H 6350 6650 50  0001 C CNN
+	1    6350 6650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6250 6350 6300 6350
+Wire Wire Line
+	6300 6350 6300 6200
+Wire Wire Line
+	6300 6200 6350 6200
+Wire Wire Line
+	6750 6100 6850 6100
+Wire Wire Line
+	6850 6050 6850 6100
+Connection ~ 6850 6100
+Wire Wire Line
+	6850 6100 6900 6100
+NoConn ~ 6750 6300
 $EndSCHEMATC
