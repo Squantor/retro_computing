@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.3)
+    (last_trace_width 0.4)
     (user_trace_width 0.15)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
@@ -1067,7 +1067,7 @@
   )
 
   (module SquantorRcl:R_0805+0603 (layer B.Cu) (tedit 5DB204EF) (tstamp 5DA8C4FD)
-    (at 248.8 94.9 90)
+    (at 219.9 132.6 270)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5DD3391F)
@@ -1087,9 +1087,9 @@
     (fp_line (start 1 0.625) (end 1 -0.625) (layer B.Fab) (width 0.1))
     (fp_line (start 1 -0.625) (end -1 -0.625) (layer B.Fab) (width 0.1))
     (fp_line (start -1 -0.625) (end -1 0.625) (layer B.Fab) (width 0.1))
-    (pad 2 smd rect (at 0.775 0 90) (size 1.05 1.3) (layers B.Cu B.Paste B.Mask)
+    (pad 2 smd rect (at 0.775 0 270) (size 1.05 1.3) (layers B.Cu B.Paste B.Mask)
       (net 2 /VDD))
-    (pad 1 smd rect (at -0.775 0 90) (size 1.05 1.3) (layers B.Cu B.Paste B.Mask)
+    (pad 1 smd rect (at -0.775 0 270) (size 1.05 1.3) (layers B.Cu B.Paste B.Mask)
       (net 38 "Net-(R2-Pad1)"))
     (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0805_2012Metric.step
       (at (xyz 0 0 0))
@@ -1444,7 +1444,7 @@
   )
 
   (module Package_DIP:DIP-40_W15.24mm_Socket (layer F.Cu) (tedit 5A02E8C5) (tstamp 5DAE12D9)
-    (at 290.7 111.3 270)
+    (at 178.8 126.1 270)
     (descr "40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket")
     (tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket")
     (path /5DB3CE97)
@@ -1669,7 +1669,7 @@
   )
 
   (module SquantorRcl:C_0805+0603 (layer B.Cu) (tedit 5D4424FD) (tstamp 5DABA471)
-    (at 271.3 117.6)
+    (at 159.4 132.4)
     (descr "Capacitor SMD 0805 and 0603 pad sizes, reflow soldering, based on AVX dimensions")
     (tags "capacitor 0805 0603 mixed")
     (path /5DB34147)
@@ -1701,7 +1701,7 @@
   )
 
   (module SquantorRcl:C_0805+0603 (layer B.Cu) (tedit 5D4424FD) (tstamp 5DABA462)
-    (at 262.7 117.9)
+    (at 150.8 132.7)
     (descr "Capacitor SMD 0805 and 0603 pad sizes, reflow soldering, based on AVX dimensions")
     (tags "capacitor 0805 0603 mixed")
     (path /5DB3413B)
@@ -1733,7 +1733,7 @@
   )
 
   (module Package_DIP:DIP-16_W7.62mm_Socket (layer F.Cu) (tedit 5A02E8C5) (tstamp 5DAE2117)
-    (at 261.5 98 270)
+    (at 232.6 129.5 270)
     (descr "16-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
     (path /5DB833E4)
@@ -1802,7 +1802,7 @@
   )
 
   (module SquantorRcl:C_0805+0603 (layer B.Cu) (tedit 5D4424FD) (tstamp 5DABA97F)
-    (at 254.3 101.1 270)
+    (at 225.4 132.6 270)
     (descr "Capacitor SMD 0805 and 0603 pad sizes, reflow soldering, based on AVX dimensions")
     (tags "capacitor 0805 0603 mixed")
     (path /5DC24CF2)
@@ -1834,7 +1834,7 @@
   )
 
   (module SquantorRcl:C_0805+0603 (layer B.Cu) (tedit 5D4424FD) (tstamp 5DABA9A9)
-    (at 252.4 101.1 270)
+    (at 223.5 132.6 270)
     (descr "Capacitor SMD 0805 and 0603 pad sizes, reflow soldering, based on AVX dimensions")
     (tags "capacitor 0805 0603 mixed")
     (path /5DBFEA51)
@@ -3299,10 +3299,10 @@
   (segment (start 120.94 59.74) (end 120.94 55.78) (width 0.3) (layer F.Cu) (net 33))
   (segment (start 122.2 61) (end 120.94 59.74) (width 0.3) (layer F.Cu) (net 33))
   (segment (start 122.2 66) (end 122.2 61) (width 0.3) (layer F.Cu) (net 33))
-  (segment (start 125.84 118.36) (end 127.1 117.1) (width 0.3) (layer F.Cu) (net 33))
-  (segment (start 123.74 118.36) (end 125.84 118.36) (width 0.3) (layer F.Cu) (net 33))
-  (segment (start 127.1 117.1) (end 127.1 68) (width 0.3) (layer F.Cu) (net 33))
+  (segment (start 123.94 118.36) (end 127.1 115.2) (width 0.3) (layer F.Cu) (net 33))
+  (segment (start 123.74 118.36) (end 123.94 118.36) (width 0.3) (layer F.Cu) (net 33))
   (segment (start 127.1 68) (end 125.5 66.4) (width 0.3) (layer F.Cu) (net 33))
+  (segment (start 127.1 115.2) (end 127.1 68) (width 0.3) (layer F.Cu) (net 33))
   (segment (start 125.5 66.4) (end 122.6 66.4) (width 0.3) (layer F.Cu) (net 33))
   (segment (start 122.6 66.4) (end 122.2 66) (width 0.3) (layer F.Cu) (net 33))
   (segment (start 108.5 70.1) (end 109.7 70.1) (width 0.3) (layer B.Cu) (net 34))
