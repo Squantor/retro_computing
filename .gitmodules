@@ -1,5 +1,3 @@
-[submodule "hardware/squantorPcbLibrary"]
+[submodule "electronics/squantorPcbLibrary"]
 	path = electronics/squantorPcbLibrary
-	url = https://github.com/Squantor/squantorPcbLibrary.git
-[submodule "squantorPcbLibrary"]
 	url = git@github.com:Squantor/squantorPcbLibrary.git
